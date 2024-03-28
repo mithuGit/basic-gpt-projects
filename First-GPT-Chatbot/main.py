@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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",
+openai.api_key = "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", # Need to hide this key
 
 def chat_with_gpt3(prompt):
     response = openai.ChatCompletion.create(
